@@ -1,0 +1,25 @@
+.Card {
+    .titulo{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        & svg {
+        height: 20px;
+        
+    }
+
+    .bomb{
+        fill: black;
+    }
+    }
+    & button {
+        background-color: transparent;
+        border: none;
+    }
+
+    & img{
+        height: 400px;
+        width: 400px;
+    }
+    
+}
